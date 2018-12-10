@@ -7,21 +7,58 @@ body {
 
 /* Header/Blog Title */
 .header {
-    padding: 30px;
     text-align: center;
     background: rgb(255,80,60);
     text-transform: uppercase;
-
+    height: 250px;
 }
 
 .header h1 {
-    font-size: 65px;
+    font-size: 100px;
     font-family: 'Abel';
-    margin:auto;
+    color: white;
+    margin: auto;
     text-align: center;
-    padding: 10px;
-    bottom: 0;
+    padding: 15px;
+    position: relative;
+    top: 50px;
   }
+  .header img {
+    height:150px;
+    width: 150px;
+    position: relative;
+    top: -100px;
+    left:-750px;
+  }
+.header h2.fax {
+  font-size: 15px;
+  color: white;
+  font-family: 'Abel';
+  position: relative;
+  right: -630px;
+  bottom: 175px;
+}
+
+.header h2.phone {
+  font-size: 15px;
+  color: white;
+  font-family: 'Abel';
+  position: relative;
+  right: -695px;
+  bottom:175px;
+
+}
+.header h2.email {
+  font-size: 15px;
+  color: white;
+  font-family: 'Abel';
+  position: relative;
+  right: -735px;
+  bottom: 175px;
+
+}
+/*END OF HEADER STYLE */
+/*++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
 /* Style the top navigation bar */
 .topnav {
@@ -38,7 +75,6 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    position: sticky;
 }
 
 /* Change color on hover */
@@ -48,19 +84,15 @@ body {
     position: sticky;
 }
 
+.topnav a:active {
+  background-color: #4CAF50;
+  color: white;
+}
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {
     float: left;
-    width: 75%;
-}
-
-/* Right column */
-.rightcolumn {
-    float: left;
-    width: 25%;
-    background-color: #f1f1f1;
-    padding-left: 20px;
+    width: 100%;
 }
 
 /* Fake image */
@@ -83,6 +115,8 @@ body {
     display: table;
     clear: both;
 }
+
+
 
 /* Footer */
 .footer {
